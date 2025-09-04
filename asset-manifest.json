@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Smart-Vehicle-Validation/static/css/main.73080a21.css",
+    "main.js": "/Smart-Vehicle-Validation/static/js/main.71cb36eb.js",
+    "static/js/453.9393f81e.chunk.js": "/Smart-Vehicle-Validation/static/js/453.9393f81e.chunk.js",
+    "index.html": "/Smart-Vehicle-Validation/index.html",
+    "main.73080a21.css.map": "/Smart-Vehicle-Validation/static/css/main.73080a21.css.map",
+    "main.71cb36eb.js.map": "/Smart-Vehicle-Validation/static/js/main.71cb36eb.js.map",
+    "453.9393f81e.chunk.js.map": "/Smart-Vehicle-Validation/static/js/453.9393f81e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.73080a21.css",
+    "static/js/main.71cb36eb.js"
+  ]
+}
