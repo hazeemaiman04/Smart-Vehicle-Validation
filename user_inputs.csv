@@ -1,0 +1,201 @@
+user_input_plate,user_input_brand,user_input_model,user_input_year,expected_brand,expected_model,expected_year,error_type
+BMR 3420,Toyot,Vios,2021,Toyota,Vios,2021,typo_brand
+LQJ 4070,Toyota,Camry,2015,Toyota,Camry,2015,correct
+SHX 7481,Honda,Civicy,2001,Honda,Civic,2001,typo_model
+KJB 4513,Toyot,Camr,2025,Toyota,Camry,2025,"typo_brand, typo_model"
+XUP 4254,notorP,X70,2099,Proton,X70,2024,"typo_brand, invalid_year"
+RYL 5036,Honda,City,2016,Honda,City,2016,correct
+EYU 1252,Toyot,Vios,2011,Toyota,Vios,2011,typo_brand
+OUG9690,Perodua,Axia,1800,Perodua,Axia,2015,"invalid_year, plate_format_error"
+BCN 8003,Honda,Civic,2022,Honda,Civic,2022,typo_brand
+OLI 8161,Honda,City,1970,Honda,City,2023,"typo_model, invalid_year"
+BBI 6419,Toyota,Vios,2025,Toyota,Vios,2025,typo_brand
+PEY 5149,Hond,Civic,2020,Honda,Civic,2020,typo_brand
+UID 9940,Honda,City,2017,Honda,City,2017,correct
+TRU 9083,audoreP,Axia,2018,Perodua,Axia,2018,typo_brand
+COM6162,Perodua,Axia,2025,Perodua,Axia,2025,plate_format_error
+SJL 4413,Toyota,Vios,1800,Toyota,Vios,2017,invalid_year
+MTH 1012,Toyot,Camry,2099,Toyota,Camry,2017,"typo_brand, invalid_year"
+VPY 2194,Proton,X70,2023,Proton,X70,2023,correct
+VMZ7900,Toyota,Camry,2020,Toyota,Camry,2020,"typo_model, plate_format_error"
+OVI 8447,Hondaz,ytiC,2016,Honda,City,2016,"typo_brand, typo_model"
+BZA 8335,Proton,X70,2020,Proton,X70,2020,typo_model
+TKT 9230,Perodua,Myv,2008,Perodua,Myvi,2008,typo_model
+ZJM 8378,Perodua,aixA,1970,Perodua,Axia,2015,"typo_model, invalid_year"
+UHH 8178,Honda,Civic,2009,Honda,Civic,2009,correct
+YZK 1832,Hond,Civic,2010,Honda,Civic,2010,typo_brand
+CYY 3402,Proton,X70,2024,Proton,X70,2024,typo_model
+JLB 8196,Honda,Civicx,2018,Honda,Civic,2018,typo_model
+HDC 9725,Proton,Saga,2019,Proton,Saga,2019,typo_model
+QZR 4326,Proton,Saga,2017,Proton,Saga,2017,correct
+QDK 4433,Hond,Civic,2007,Honda,Civic,2007,typo_brand
+BHC 9393,Honda,City,2014,Honda,City,2014,correct
+WKG 7067,Toyotax,Camry,2015,Toyota,Camry,2015,typo_brand
+WEY 6161,Perodua,Axia,2019,Perodua,Axia,2019,typo_model
+LRL 6887,Hondax,Civic,2016,Honda,Civic,2016,"typo_brand, typo_model"
+UOJ 8789,Toyota,Vio,2018,Toyota,Vios,2018,typo_model
+BFK7224,Honda,City,2013,Honda,City,2013,plate_format_error
+RKB9782,Proton,X7,2020,Proton,X70,2020,"typo_model, plate_format_error"
+KNJ 5191,Perodua,Axia,2024,Perodua,Axia,2024,correct
+MNS4982,Perodua,Axia,1970,Perodua,Axia,2014,"invalid_year, plate_format_error"
+QZE 1291,T0y0ta,Camry,2014,Toyota,Camry,2014,typo_brand
+WEN 5138,Toyota,Camryz,2010,Toyota,Camry,2010,typo_model
+XKL 1232,Proton,X70,1800,Proton,X70,2020,invalid_year
+CYB 1672,Perodua,Myv1,2024,Perodua,Myvi,2024,typo_model
+PSI2629,Toyota,Vio,2021,Toyota,Vios,2021,"typo_brand, typo_model, plate_format_error"
+EBG8539,T0y0ta,Camry,2006,Toyota,Camry,2006,"typo_brand, plate_format_error"
+OVY 4469,audoreP,Axia,2025,Perodua,Axia,2025,typo_brand
+ZUD 1756,Honda,Civic,2008,Honda,Civic,2008,correct
+ERW 8291,Proton,Saga,1800,Proton,Saga,2006,invalid_year
+MQV7615,Peroduaz,Myv,2008,Perodua,Myvi,2008,"typo_brand, typo_model, plate_format_error"
+QQY 1085,Proton,Saga,1970,Proton,Saga,2020,invalid_year
+YUT 6997,Toyotax,Vios,2024,Toyota,Vios,2024,typo_brand
+SPJ 5371,Toyota,Camry,2018,Toyota,Camry,2018,correct
+NLA 1122,Pr0t0n,X70y,2023,Proton,X70,2023,"typo_brand, typo_model"
+NER 7413,Toyota,Camry,2018,Toyota,Camry,2018,typo_brand
+WGT 8833,audoreP,Myv1,2022,Perodua,Myvi,2022,"typo_brand, typo_model"
+AVG 4776,H0nda,City,2011,Honda,City,2011,typo_brand
+VFW 8474,Pr0t0n,X70,2023,Proton,X70,2023,typo_brand
+AYE 6789,Toyota,Camryx,2018,Toyota,Camry,2018,"typo_brand, typo_model"
+CQY 8281,Perodua,Axia,2018,Perodua,Axia,2018,correct
+TJR 2418,H0nda,City,2019,Honda,City,2019,"typo_brand, typo_model"
+BHF4086,Honda,C1ty,2009,Honda,City,2009,"typo_model, plate_format_error"
+SJX 1640,Per0dua,aixA,2021,Perodua,Axia,2021,"typo_brand, typo_model"
+HUY 3909,Perodua,Myvi,2016,Perodua,Myvi,2016,correct
+SQU 4604,Toyota,Camry,2012,Toyota,Camry,2012,typo_brand
+PUB 8662,Toyota,Camry,2005,Toyota,Camry,2005,typo_model
+XMV 3222,Toyota,Camry,2023,Toyota,Camry,2023,typo_model
+RWR7092,Honda,Civic,2007,Honda,Civic,2007,plate_format_error
+ZEC 5817,Honda,Civicy,2022,Honda,Civic,2022,typo_model
+IPT 5840,Proton,X70,2022,Proton,X70,2022,typo_model
+GVF 7466,Honda,civiC,2001,Honda,Civic,2001,typo_model
+XRE1894,Proton,agaS,2014,Proton,Saga,2014,"typo_model, plate_format_error"
+BXF9781,Proton,X7,2022,Proton,X70,2022,"typo_brand, typo_model, plate_format_error"
+JZO1703,Toyota,Camry,2005,Toyota,Camry,2005,plate_format_error
+XBK 7157,Honda,Civic,2016,Honda,Civic,2016,correct
+PXG 3550,Proton,Saga,2011,Proton,Saga,2011,typo_model
+PBS 5094,Toyota,V1os,2015,Toyota,Vios,2015,typo_model
+XXD 2862,T0y0ta,Camry,2017,Toyota,Camry,2017,typo_brand
+CAG 9460,Perodua,ivyM,2024,Perodua,Myvi,2024,typo_model
+RPM 5303,Toyotay,Vio,2018,Toyota,Vios,2018,"typo_brand, typo_model"
+RPN 1865,Perodua,Myvi,1800,Perodua,Myvi,2023,invalid_year
+POY 7515,Proton,X70,2025,Proton,X70,2025,correct
+KDJ6717,Toyota,Vios,2099,Toyota,Vios,2012,"invalid_year, plate_format_error"
+MJK 3394,Honda,Civi,2013,Honda,Civic,2013,typo_model
+DYU9169,Per0dua,Axi,2025,Perodua,Axia,2025,"typo_brand, typo_model, plate_format_error"
+FPN5781,Honda,City,2019,Honda,City,2019,plate_format_error
+XVK 2270,Peroduax,Axia,2025,Perodua,Axia,2025,typo_brand
+CWN7339,Per0dua,Myvi,2021,Perodua,Myvi,2021,"typo_brand, plate_format_error"
+YCH 3499,Toyota,Camry,2099,Toyota,Camry,2021,"typo_brand, invalid_year"
+ERO 4226,Perodua,ivyM,2006,Perodua,Myvi,2006,typo_model
+GPZ4426,Toyota,Vios,2023,Toyota,Vios,2023,plate_format_error
+AVM 8608,Honda,Civic,2006,Honda,Civic,2006,correct
+DMF 3280,Toyota,Vios,2019,Toyota,Vios,2019,correct
+XLV8167,Honda,Civic,2002,Honda,Civic,2002,plate_format_error
+CZK 7031,Honday,Civic,2001,Honda,Civic,2001,typo_brand
+CSL 6171,Proton,X70,2024,Proton,X70,2024,correct
+NGU 2267,Perodua,Axia,2014,Perodua,Axia,2014,correct
+BPB4469,Toyota,Vi0s,2021,Toyota,Vios,2021,"typo_model, plate_format_error"
+CDB2669,Peroduaz,Axia,2025,Perodua,Axia,2025,"typo_brand, typo_model, plate_format_error"
+UZV 7234,Peroduay,Axia,2018,Perodua,Axia,2018,typo_brand
+KTY 2748,Honda,City,2015,Honda,City,2015,correct
+DIZ 3170,Proton,Saga,2099,Proton,Saga,2021,invalid_year
+AIW4324,Toyota,Camry,2007,Toyota,Camry,2007,plate_format_error
+UPW 6549,Protonz,X7,2025,Proton,X70,2025,"typo_brand, typo_model"
+MDE 9753,Toyota,Vios,2016,Toyota,Vios,2016,typo_brand
+HNA 8419,Proton,X70,2022,Proton,X70,2022,correct
+XEW 2120,Honda,C1ty,2099,Honda,City,2012,"typo_model, invalid_year"
+KDA 1401,notorP,X70,2023,Proton,X70,2023,typo_brand
+YST 9279,Honda,Civic,2099,Honda,Civic,2001,invalid_year
+AJY 1737,Toyota,Camry,2025,Toyota,Camry,2025,correct
+DCF1536,Honda,ytiC,2025,Honda,City,2025,"typo_model, plate_format_error"
+JKR 3455,audoreP,Myv1,2024,Perodua,Myvi,2024,"typo_brand, typo_model"
+JTJ 7870,Honda,Civicx,1970,Honda,Civic,2011,"typo_brand, typo_model, invalid_year"
+RIS 7761,Perodua,ivyM,2023,Perodua,Myvi,2023,"typo_brand, typo_model"
+NTL 5097,Proton,X70,2024,Proton,X70,2024,correct
+GDB 6802,Proton,Saga,2014,Proton,Saga,2014,correct
+MXZ 3919,Honda,Civi,2012,Honda,Civic,2012,typo_model
+IUY 1127,Honda,Civic,2003,Honda,Civic,2003,typo_model
+JEA 5158,Honda,City,2014,Honda,City,2014,correct
+ATC 2470,Hondaz,C1ty,2024,Honda,City,2024,"typo_brand, typo_model"
+DKN 1763,Toyota,Vios,2022,Toyota,Vios,2022,correct
+PEU 5962,Toyota,Camryy,1800,Toyota,Camry,2017,"typo_model, invalid_year"
+SZE 5254,Proton,agaS,2013,Proton,Saga,2013,typo_model
+QYY 2929,Perodua,Axia,2019,Perodua,Axia,2019,correct
+UPV 8788,Honda,C1ty,2016,Honda,City,2016,typo_model
+PDC 9765,Proto,Saga,2012,Proton,Saga,2012,typo_brand
+VOQ 7661,Peroduax,Axia,2015,Perodua,Axia,2015,typo_brand
+SVI 3256,Proton,X70,2023,Proton,X70,2023,correct
+BEL 7592,T0y0ta,Camry,2022,Toyota,Camry,2022,typo_brand
+JAD 2010,adnoH,City,2019,Honda,City,2019,typo_brand
+RSP 6626,Honda,City,2023,Honda,City,2023,correct
+NNV 3338,Per0dua,Axi,2099,Perodua,Axia,2025,"typo_brand, typo_model, invalid_year"
+XMW 9522,Honda,C1v1c,2099,Honda,Civic,2008,"typo_model, invalid_year"
+EJT7624,Peroduay,ivyM,2012,Perodua,Myvi,2012,"typo_brand, typo_model, plate_format_error"
+KRD 6297,Hond,ytiC,2099,Honda,City,2017,"typo_brand, typo_model, invalid_year"
+MLB1533,T0y0ta,Vios,2024,Toyota,Vios,2024,"typo_brand, plate_format_error"
+ICK 7913,Protonx,Saga,1970,Proton,Saga,2018,"typo_brand, invalid_year"
+MQI 2510,Perodua,Axiay,2019,Perodua,Axia,2019,typo_model
+KFS 1757,Honda,City,2018,Honda,City,2018,correct
+KSJ 7763,Honda,Civic,2015,Honda,Civic,2015,correct
+BKY 4289,Perodua,Axia,2021,Perodua,Axia,2021,correct
+NZW 1111,Toyota,Vios,2012,Toyota,Vios,2012,correct
+TUQ 8053,Toyota,Camry,2008,Toyota,Camry,2008,correct
+BSN 2884,H0nda,Civic,2006,Honda,Civic,2006,typo_brand
+SLC 1823,notorP,X70,2019,Proton,X70,2019,typo_brand
+CRA 8766,Toyota,Vio,2020,Toyota,Vios,2020,typo_model
+CXH 9444,Hond,Civic,2006,Honda,Civic,2006,"typo_brand, typo_model"
+IMY 3641,Honda,Civic,2013,Honda,Civic,2013,correct
+EFY2092,Honda,Civic,2011,Honda,Civic,2011,"typo_brand, plate_format_error"
+IJN5585,Proton,Saga,1970,Proton,Saga,2001,"invalid_year, plate_format_error"
+OIZ 4154,Perodu,Myvi,2099,Perodua,Myvi,2019,"typo_brand, invalid_year"
+HAF 3042,H0nda,Civic,2099,Honda,Civic,2011,"typo_brand, invalid_year"
+VNV8663,Hond,City,1970,Honda,City,2025,"typo_brand, invalid_year, plate_format_error"
+KSG 7884,Toyota,Camry,2018,Toyota,Camry,2018,typo_brand
+GFW 8664,Hond,Civic,2003,Honda,Civic,2003,typo_brand
+KAX 8468,notorP,X7,1970,Proton,X70,2020,"typo_brand, typo_model, invalid_year"
+GLB3969,Perodua,Myvi,2005,Perodua,Myvi,2005,"typo_brand, plate_format_error"
+AVF 8345,Proton,Saga,2002,Proton,Saga,2002,correct
+OVH 4735,Proton,Saga,2018,Proton,Saga,2018,correct
+OVF 7882,Perodua,Myvi,2014,Perodua,Myvi,2014,correct
+YNL 8618,Proton,X70,2024,Proton,X70,2024,correct
+RDD 9492,Proton,X7,2025,Proton,X70,2025,typo_model
+RBL7287,Pr0t0n,X70,2023,Proton,X70,2023,"typo_brand, plate_format_error"
+BZS 2881,H0nda,civiC,2099,Honda,Civic,2001,"typo_brand, typo_model, invalid_year"
+FJL 7417,Perodua,Myvi,2022,Perodua,Myvi,2022,correct
+NGK 3860,Honda,City,2015,Honda,City,2015,correct
+QQM 3648,Toyota,Camryx,1800,Toyota,Camry,2014,"typo_model, invalid_year"
+NDN 1938,H0nda,City,2015,Honda,City,2015,typo_brand
+NBN 6680,Honda,Civic,2004,Honda,Civic,2004,correct
+JBJ 2866,audoreP,Myvi,1970,Perodua,Myvi,2023,"typo_brand, invalid_year"
+EZM 2097,Perodua,Myvi,2008,Perodua,Myvi,2008,correct
+QAM 1497,Honda,Civic,2099,Honda,Civic,2009,invalid_year
+ZCH5727,Proton,X70,2099,Proton,X70,2023,"invalid_year, plate_format_error"
+MYH 9772,Perodua,ivyM,2014,Perodua,Myvi,2014,typo_model
+UKA 5319,T0y0ta,Vios,2025,Toyota,Vios,2025,typo_brand
+RTR2999,Perodua,Axi,2016,Perodua,Axia,2016,"typo_model, plate_format_error"
+KEB 9772,Honda,Civicz,2023,Honda,Civic,2023,typo_model
+SSJ6429,Hondax,Civic,2017,Honda,Civic,2017,"typo_brand, plate_format_error"
+HME 8148,Proto,Saga,2099,Proton,Saga,2007,"typo_brand, invalid_year"
+YVE 2529,Proton,X70,2020,Proton,X70,2020,correct
+DXE 6904,Perodua,Myvi,1800,Perodua,Myvi,2021,invalid_year
+WER 7766,Protonz,Saga,2017,Proton,Saga,2017,typo_brand
+NPQ9528,Per0dua,Axia,2018,Perodua,Axia,2018,"typo_brand, typo_model, plate_format_error"
+BHI 2869,Honda,ytiC,1970,Honda,City,2008,"typo_model, invalid_year"
+EPC 4023,Proton,X70,2025,Proton,X70,2025,correct
+TVQ 6753,Hond,Civic,2099,Honda,Civic,2013,"typo_brand, invalid_year"
+JMQ 7162,Toyota,Camryz,2017,Toyota,Camry,2017,typo_model
+PFE3926,Honda,Civic,1970,Honda,Civic,2003,"typo_model, invalid_year, plate_format_error"
+IET 9634,Proton,Saga,2023,Proton,Saga,2023,typo_model
+XHG6078,Per0dua,Myv,2006,Perodua,Myvi,2006,"typo_brand, typo_model, plate_format_error"
+SOG 9647,Honda,Cityy,2011,Honda,City,2011,typo_model
+YWS 8689,Toyota,V1os,1800,Toyota,Vios,2015,"typo_model, invalid_year"
+CYD 8496,Honda,Civic,2021,Honda,Civic,2021,correct
+BDG 2222,Honda,City,2012,Honda,City,2012,correct
+CUL 8412,Pr0t0n,Sagay,2099,Proton,Saga,2016,"typo_brand, typo_model, invalid_year"
+STZ 3438,H0nda,City,2016,Honda,City,2016,typo_brand
+DNH 1556,Toyota,Camry,1800,Toyota,Camry,2010,invalid_year
+LFJ 7605,Perodua,Axi,2019,Perodua,Axia,2019,"typo_brand, typo_model"
+LKA3923,Honda,Civicy,2009,Honda,Civic,2009,"typo_model, plate_format_error"
+XZI 2711,Toyota,Vios,1970,Toyota,Vios,2012,invalid_year
+RXH5709,Proton,Saga,2023,Proton,Saga,2023,plate_format_error
