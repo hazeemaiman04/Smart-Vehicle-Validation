@@ -193,7 +193,7 @@ export default function SmartVehicleValidation() {
 
   const issues = [];
   if (!plateVal.ok) issues.push({ key: "plate", label: "Plate format", suggestion: plateVal.readable, action: () => { setPlate(plateVal.readable); setAccepted((s) => ({ ...s, plate: true })); }, tone: "warn" });
-  if (!makeOk) issues.push({ key: "make", label: "Make looks off", suggestion: bestMake.match, action: () => { setMake(bestMake.match); setAccepted((s) => ({ ...s, make: true })); }, tone: "bad" });
+  if (!makeOk) issues.push({ key: "make", label: "Brand looks off", suggestion: bestMake.match, action: () => { setMake(bestMake.match); setAccepted((s) => ({ ...s, make: true })); }, tone: "bad" });
   if (!modelOk) issues.push({ key: "model", label: "Did you mean", suggestion: bestModel.match, action: () => { setModel(bestModel.match); setAccepted((s) => ({ ...s, model: true })); }, tone: "warn" });
   if (!yearVal.ok) issues.push({ key: "year", label: "Year range", suggestion: `${clamp(parseInt(year || nowYear, 10) || nowYear, 1980, nowYear)}`, action: () => { setYear(`${clamp(parseInt(year || nowYear, 10) || nowYear, 1980, nowYear)}`); setAccepted((s) => ({ ...s, year: true })); }, tone: "warn" });
 
@@ -203,14 +203,14 @@ export default function SmartVehicleValidation() {
     const { clean, readable } = sanitizePlate(plate);
     return {
       plate: { raw: plate, normalized: clean, display: readable },
-      make: bestMake.match,
+      brand: bestMake.match,
       model: bestModel.match,
       year: Number(yearVal.year || year),
       variant: normalizeText(variant),
       confidence: Number(confidence.toFixed(3)),
       flags: {
         platePatternOk: plateVal.ok,
-        makeAutoCorrected: accepted.make,
+        brandAutoCorrected: accepted.make,
         modelAutoCorrected: accepted.model,
         yearAutoCorrected: accepted.year,
       },
@@ -383,7 +383,7 @@ export default function SmartVehicleValidation() {
 
             {/* Make */}
             <div>
-              <label className="block text-sm font-medium text-slate-700">Make</label>
+              <label className="block text-sm font-medium text-slate-700">Brand</label>
               <input
                 list="makes"
                 value={make}
@@ -459,14 +459,14 @@ export default function SmartVehicleValidation() {
               <div className="text-xs text-slate-600">{Math.round(confidence * 100)}%</div>
             </div>
             <Progress value={confidence} />
-            <div className="mt-2 text-xs text-slate-500">We compute confidence from plate pattern, make/model similarity and year plausibility. Higher is better.</div>
+            <div className="mt-2 text-xs text-slate-500">We compute confidence from plate pattern, brand/model similarity and year plausibility. Higher is better.</div>
           </div>
 
           {/* Checks */}
           <div className="mt-6 grid sm:grid-cols-2 gap-2">
             <StatusLine ok={plateVal.ok} label="Plate number" message={plateVal.message} />
-            <StatusLine ok={makeOk} label="Make" message={makeOk ? `Looks like &quot;${bestMake.match}&quot;` : `Did you mean &quot;${bestMake.match}&quot;?`} />
-            <StatusLine ok={modelOk} label="Model" message={modelOk ? `Looks like &quot;${bestModel.match}&quot;` : `Did you mean &quot;${bestModel.match}&quot;?`} />
+            <StatusLine ok={makeOk} label="Brand" message={makeOk ? `Looks like “${bestMake.match}”` : `Did you mean “${bestMake.match}”?`}/>
+            <StatusLine ok={modelOk} label="Model" message={modelOk ? `Looks like “${bestModel.match}”` : `Did you mean “${bestModel.match}”?`}/>
             <StatusLine ok={yearVal.ok} label="Year" message={yearVal.message} />
           </div>
 
@@ -487,7 +487,7 @@ export default function SmartVehicleValidation() {
         <motion.aside initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.45 }} className="bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
           <div className="flex items-center gap-2 mb-4">
             <Compass size={18} className="text-cyan-600" />
-            <h3 className="text-lg font-semibold">Normalized Payload (Mock)</h3>
+            <h3 className="text-lg font-semibold">Result</h3>
           </div>
           <div className="bg-slate-900 text-slate-100 rounded-xl p-4 font-mono text-xs overflow-auto max-h-[320px]">
             <pre>{JSON.stringify(normalizedPayload, null, 2)}</pre>
@@ -564,7 +564,7 @@ export default function SmartVehicleValidation() {
             <div className="font-semibold mb-1">Why this matters</div>
             <ul className="list-disc ml-5 space-y-1">
               <li>Prevents pricing errors and policy delays caused by typos.</li>
-              <li>Improves quote accuracy with canonicalized make/model.</li>
+              <li> Improves quote accuracy with canonicalized brand/model.</li>
               <li>Flags out-of-range years and invalid plate formats instantly.</li>
             </ul>
           </div>
