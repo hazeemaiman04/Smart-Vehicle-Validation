@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Smart-Vehicle-Validation/static/css/main.2c388583.css",
-    "main.js": "/Smart-Vehicle-Validation/static/js/main.f3a261db.js",
+    "main.css": "/Smart-Vehicle-Validation/static/css/main.77ff8979.css",
+    "main.js": "/Smart-Vehicle-Validation/static/js/main.a45ef413.js",
     "index.html": "/Smart-Vehicle-Validation/index.html",
-    "main.2c388583.css.map": "/Smart-Vehicle-Validation/static/css/main.2c388583.css.map",
-    "main.f3a261db.js.map": "/Smart-Vehicle-Validation/static/js/main.f3a261db.js.map"
+    "main.77ff8979.css.map": "/Smart-Vehicle-Validation/static/css/main.77ff8979.css.map",
+    "main.a45ef413.js.map": "/Smart-Vehicle-Validation/static/js/main.a45ef413.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c388583.css",
-    "static/js/main.f3a261db.js"
+    "static/css/main.77ff8979.css",
+    "static/js/main.a45ef413.js"
   ]
 }
