@@ -65,9 +65,9 @@ pip install -r requirements.txt
 ```
 (Note: You will need to create a `requirements.txt` file first. See "Project Structure" for details.)
 
-### 4. Create `requirements.txt` (if not already present)
+### 4. Download `requirements.txt` 
 
-Before running `pip install -r requirements.txt`, you'll need a `requirements.txt` file. You can generate one based on the `Tech Stack` section:
+Before running `pip install -r requirements.txt`, you'll need a `requirements.txt` file. You can download from the given file that consists of: 
 
 ```
 fastapi==0.103.2
